@@ -1,8 +1,10 @@
 var http = require('http');
 //Llamo a mi modulo propio
 var dt = require('./myfirstModule');
-//Crealmos nuestra variable URL
+//Crealmos nuestra variable URL para porder trabajar con la informaci'on proporcionada por el usuario
 var url = require('url');
+//Trabajaremos con ficheros ahora
+var fs = require('fs');
 
 http.createServer(function (req, res) {
 
